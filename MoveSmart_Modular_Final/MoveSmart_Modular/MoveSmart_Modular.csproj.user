@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Vistas\ChatbotUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\LoginForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\MapaUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\ReportesUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Vistas\VistaArbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
