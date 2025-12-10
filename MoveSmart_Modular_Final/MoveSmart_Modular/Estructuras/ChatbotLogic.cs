@@ -8,13 +8,11 @@ namespace ArbolEmpresaMudanzas.Estructuras
 {
     public class ChatbotLogic
     {
-        // Tu llave (ya configurada)
-        private const string API_KEY = "AIzaSyCrtkbKJ5GcbPSxdIc0qVBTgpp33aVmnHk";
+        // ✅ CAMBIO APLICADO: Leemos la clave desde la clase Secrets
+        private readonly string API_KEY = Secrets.ApiKey;
 
         // URL Base
         private const string BASE_URL = "https://generativelanguage.googleapis.com/v1beta";
-
-        // ✅ CORRECCIÓN FINAL: Usamos 'gemini-2.5-flash' que SÍ aparece en tu lista.
         private const string URL_CHAT = BASE_URL + "/models/gemini-2.5-flash:generateContent";
 
         private static readonly HttpClient client = new HttpClient(new HttpClientHandler { UseProxy = false });
@@ -23,10 +21,15 @@ namespace ArbolEmpresaMudanzas.Estructuras
         {
             try
             {
-                string keyLimpia = API_KEY.Trim();
-                if (string.IsNullOrEmpty(keyLimpia)) return "❌ Error: API Key vacía.";
+                // Validación básica
+                if (string.IsNullOrEmpty(API_KEY) || API_KEY.Contains("PEGA_AQUI"))
+                {
+                    return "❌ Error: La API Key no está configurada en Secrets.cs";
+                }
 
-                // Diagnóstico (Lo dejamos por si acaso quieres verificar de nuevo)
+                string keyLimpia = API_KEY.Trim();
+
+                // Diagnóstico
                 if (mensajeUsuario.Trim().ToUpper() == "MODELOS")
                 {
                     return await ListarModelosDisponibles(keyLimpia);
@@ -69,7 +72,6 @@ namespace ArbolEmpresaMudanzas.Estructuras
             }
         }
 
-        // Función auxiliar para listar modelos (útil para debug futuro)
         private async Task<string> ListarModelosDisponibles(string key)
         {
             try

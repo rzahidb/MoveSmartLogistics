@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mzp4LjdMIBs=",
+  "dgSpecHash": "Mm7m3xUDswA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rzahi\\Downloads\\MoveSmart_Modular Proyecto\\MoveSmart_Modular (1)\\MoveSmart_Modular (1)\\MoveSmart_Modular (1)\\MoveSmart_Modular\\MoveSmart_Modular\\MoveSmart_Modular.csproj",
+  "projectFilePath": "C:\\Users\\rzahi\\Downloads\\MoveSmartLogistics\\MoveSmart_Modular_Final\\MoveSmart_Modular\\MoveSmart_Modular.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rzahi\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\rzahi\\.nuget\\packages\\nettopologysuite\\2.6.0\\nettopologysuite.2.6.0.nupkg.sha512",

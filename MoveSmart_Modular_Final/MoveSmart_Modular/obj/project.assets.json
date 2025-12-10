@@ -257,11 +257,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rzahi\\Downloads\\MoveSmart_Modular Proyecto\\MoveSmart_Modular (1)\\MoveSmart_Modular (1)\\MoveSmart_Modular (1)\\MoveSmart_Modular\\MoveSmart_Modular\\MoveSmart_Modular.csproj",
+      "projectUniqueName": "C:\\Users\\rzahi\\Downloads\\MoveSmartLogistics\\MoveSmart_Modular_Final\\MoveSmart_Modular\\MoveSmart_Modular.csproj",
       "projectName": "MoveSmart_Modular",
-      "projectPath": "C:\\Users\\rzahi\\Downloads\\MoveSmart_Modular Proyecto\\MoveSmart_Modular (1)\\MoveSmart_Modular (1)\\MoveSmart_Modular (1)\\MoveSmart_Modular\\MoveSmart_Modular\\MoveSmart_Modular.csproj",
+      "projectPath": "C:\\Users\\rzahi\\Downloads\\MoveSmartLogistics\\MoveSmart_Modular_Final\\MoveSmart_Modular\\MoveSmart_Modular.csproj",
       "packagesPath": "C:\\Users\\rzahi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rzahi\\Downloads\\MoveSmart_Modular Proyecto\\MoveSmart_Modular (1)\\MoveSmart_Modular (1)\\MoveSmart_Modular (1)\\MoveSmart_Modular\\MoveSmart_Modular\\obj\\",
+      "outputPath": "C:\\Users\\rzahi\\Downloads\\MoveSmartLogistics\\MoveSmart_Modular_Final\\MoveSmart_Modular\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

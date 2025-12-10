@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoveSmart_Modular")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+256884f1847ae7d40a3a83a3cf73536a2f47b735")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoveSmart_Modular")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoveSmart_Modular")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
