@@ -15,7 +15,7 @@ Este repositorio contiene el código fuente limpio (sin credenciales). **Para ev
 3.  **Abrir:** Entra en la carpeta extraída y abre el archivo de solución (`.sln`) con **Visual Studio**.
 4.  **Ejecutar:** Compila e inicia el proyecto.
 
-> **Nota:** El archivo `.rar` incluye el fichero `ApiKey.cs` con las credenciales necesarias para que el Chatbot funcione inmediatamente.
+> **Nota:** El archivo `.rar` incluye el fichero `ApiKey.cs` y el `User.txt` con las credenciales para pasar el login de seguridad y para que el Chatbot funcione inmediatamente.
 
 ---
 
